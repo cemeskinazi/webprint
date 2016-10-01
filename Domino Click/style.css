@@ -1,0 +1,46 @@
+/*html{
+cursor: none;
+
+}*/
+
+.gloabl {
+        -webkit-filter: drop-shadow(-7px 7px 3px rgba(0,0,0,0.5));
+        transition: .5s;
+    }
+
+
+
+
+.cursor {
+/*        -webkit-filter: drop-shadow(-7px 7px 3px rgba(0,0,0,0.5));
+        transition: .5s;*/
+
+        z-index: 4;
+    }
+
+
+.hello {
+
+    position: absolute;
+    top: 109px;
+    left: 80px;
+    font-size: 26px;
+    font-family: arial black;
+    z-index: -3;
+    border: solid 1px;
+    padding: 16px;
+    box-shadow: -7px 7px 25px rgba(0,0,0,.5);
+    transition: .5s;
+
+
+}
+
+
+
+.clicked{
+
+    text-align: center;
+    top: 20%;
+    font-family: arial black;
+    font-size: 5em;
+}

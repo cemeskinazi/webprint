@@ -1,0 +1,68 @@
+
+
+
+
+a{
+    cursor: none;
+}
+
+
+body {
+    text-align: center;
+    font-family: arial black;
+    /* letter-spacing: 0; */
+    word-spacing: -0.06vw;
+    line-height: 4.9vw;
+    font-size: 4.5vw;
+    font-weight: bold;
+    color: white;
+    margin-left: 2em;
+    background-color: white;
+    -webkit-font-smoothing: antialiased;
+    text-rendering: optimizeLegibility !important;
+    margin-right: 1em;
+    animation-name: color;
+    animation-duration: 180s;
+    animation-direction: alternate;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease;
+    transition: 1s;
+
+}
+.wrap{
+
+    overflow: hidden;
+}
+.small{
+
+    font-size: .2em;
+    letter-spacing: .129em;
+    word-spacing: -.1em;
+    line-height: 1.3em;
+    font-family: arial;
+    color: black;
+
+}
+
+.display {
+
+    display: none;
+
+}
+
+.cursor{
+
+    position: absolute;
+    color: black;
+
+}
+
+
+.main {
+
+    width:100%;
+    height: 9%;
+    margin: 5px;
+
+}
+

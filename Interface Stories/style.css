@@ -1,0 +1,59 @@
+.custom-menu {
+    display: none;
+    z-index: 1000;
+    position: absolute;
+    overflow: hidden;
+    border: 1px solid #CCC;
+    white-space: nowrap;
+    font-family: sans-serif;
+    background: #F5F5F5;
+    color: #333;
+    border-radius: 5px;
+    -webkit-box-shadow: -1px -6px 64px -31px rgba(0,0,0,0.75);
+    -moz-box-shadow: -1px -6px 64px -31px rgba(0,0,0,0.75);
+    box-shadow: -1px -6px 64px -31px rgba(0,0,0,0.75);
+}
+
+.custom-menu div {
+    padding: 8px 12px;
+/*    cursor: none;
+*/}
+
+.custom-menu div:hover {
+    background-color: #DEF;
+}
+
+
+html{
+
+    cursor: none;
+}
+
+
+.barg {
+
+    display: none;
+}
+
+form {
+
+
+/*    width: 300px;
+*/    position: absolute;
+}
+
+textarea {
+
+    width: 300px;
+}
+
+input{
+
+    width: 400px;
+    height: 35px;
+    font-size: 25px;}
+
+.logo {
+
+    position: absolute;
+}
